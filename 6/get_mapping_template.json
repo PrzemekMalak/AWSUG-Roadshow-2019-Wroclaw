@@ -4,7 +4,7 @@
     "KeyConditionExpression": "application_id = :v1",
     "ExpressionAttributeValues": {
         ":v1": {
-            "S": "$input.params('applicationid')"
+            "S": "$input.params('applicationId')"
         }
     }
 }
